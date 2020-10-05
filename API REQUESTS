@@ -1,0 +1,6 @@
+ import pprint
+>>> import requests
+ r = requests.get('https://api.github.com/repos/dspinellis/awesome-rest-apis')
+>>> r.json()
+
+https://github.com/tnguruve
